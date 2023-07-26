@@ -15,41 +15,44 @@
 
 //? Basic DataTypes : Primitive , Non-Primitive
 //? Primitive
-//* String
+//- String
 let name = "Bhawani_K"
 
-//* Number
+//- Number
 let number = 500
 
-//* BigInt
+//- BigInt
 let bigNumber = 26615415151216518484515165151565n
 
-//* Boolean
+//- Boolean
 let truth = false
 
-//* null, special type : empty.. | standaloneValue
+//- null, special type : empty.. | standaloneValue
 let date = null
 
-//* unDefined, variable declared but not defined
+//- unDefined, variable declared but not defined
 let dob;
 
-//* Symbol, to find the uniqueness
-let place = Symbol('silk City')
+//- Symbol, to find the uniqueness
+let place = Symbol('silk City')  //? return type is Symbol
+let anotherPlace = Symbol('silk City')  //?
+
+console.log(place === anotherPlace);    //? false
 
 //! ---------------------------------------------
 
 //? Non-Primitive
-//* Object
+//- Object
 let std = {
     firstName : 'Bhawani_K',
     lastName : 'null',
     domain : 's/w engineer'
 }
 
-//* arrays
+//- arrays
 let gender = ['male', 'female', 'trans', 'Prefer not to say']
 
-//* typeOf
+//- typeOf
 console.log(typeof name); //string
 console.log(typeof truth); // boolean
 console.log(typeof undefined); // undefined
